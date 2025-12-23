@@ -88,7 +88,7 @@ int main(void) {
     
     
     int age = 0;
-    float gpa = 0.0f;
+    float gpa = 0.0f;   // tell others that a float number should be used
     char grade = '\0';  // null terminator
     char name[30] = "";
     
