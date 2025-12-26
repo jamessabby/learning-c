@@ -9,6 +9,7 @@ int main() {
 
   int age = 25;
   int *pAge = &age;   // * = dereference operator, used to store a pointer
+                       // "integer pointer named pAge is set to the address of age"
 
   birthday(pAge);
 
