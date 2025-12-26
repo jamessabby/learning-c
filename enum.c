@@ -28,11 +28,29 @@ int main() {
 }
 
 void connectStatus(Status status) {
-  if (status == SUCCESS) {
-    printf("Connection was sucessful.\n");
-  } else if (status == FAILURE) {
+
+  // if (status == SUCCESS) {
+  //   printf("Connection was successfull\n")
+  // } else if (status == FAILURE) {
+  //   printf("Could not connect.\n");
+  // } else {
+  //   printf("Connecting...\n");
+  // }
+
+  switch (status)
+
+  {
+  case SUCCESS:
+    printf("Connection was successfull!\n");
+    break;
+  case FAILURE:
     printf("Could not connect.\n");
-  } else {
+    break;
+  case PENDING:
     printf("Connecting...\n");
+    break;
+  
+  default:
+    break;
   }
 } 
