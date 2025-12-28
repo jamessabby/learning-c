@@ -36,7 +36,6 @@ typedef unsigned int uint16_t;
 
 // x, y are unsigned ints and 16-bits
 uint16_t x, y;
-
 ```
 
 t
