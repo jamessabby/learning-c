@@ -13,8 +13,6 @@ pSTRUCT_LEDVariables
     ->ledRotation.member.u8rotateForwardSpeed = 0x11;
 ```
 
-````
-
 - `->` is used because `pSTRUCT_LEDVariables` is a pointer
 - You can write to:
   - the entire register (`reg`)
@@ -119,8 +117,3 @@ This pattern is common in embedded systems for:
 - Hardware registers
 - Configuration blocks
 - Clean, scalable driver design
-
-```
-
-```
-````
