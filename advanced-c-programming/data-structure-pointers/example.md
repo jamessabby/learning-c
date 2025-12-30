@@ -1,4 +1,3 @@
-````md
 ## Using Union and Structure Variables (with Pointers)
 
 ### Accessing Members with Pointers
@@ -13,6 +12,7 @@ pSTRUCT_LEDVariables->ledRotation.reg = 0xABCDECFF;
 pSTRUCT_LEDVariables
     ->ledRotation.member.u8rotateForwardSpeed = 0x11;
 ```
+
 ````
 
 - `->` is used because `pSTRUCT_LEDVariables` is a pointer
@@ -123,3 +123,4 @@ This pattern is common in embedded systems for:
 ```
 
 ```
+````
